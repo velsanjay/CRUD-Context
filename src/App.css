@@ -1,38 +1,109 @@
-.App {
+.App{
   text-align: center;
+  background-color: skyblue;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.grid{
+  display: grid;
+  grid-template-columns: 18%x auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.chng{
+  grid-template-columns: 10% auto;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.img{
+  width: 60px;
+  border-radius: 50%;
+}
+.tra{
+  transform: rotate(180deg);
+}
+.nav{
+  background-color: lightblue;
+  height: 100%;
+}
+.card{
+  border: 1px solid red;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: cadetblue;
+}
+.vie{
+  margin: 10% 30%;
+ height: 100vh; 
+}
+.card:hover{
+  box-shadow: 4px 4px rosybrown;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  color: whitesmoke;
+  background-color: crimson;
+}
+.top{
+  margin : 18px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+.but{
+  margin: 10px;
+  padding: 10px 20px;
+  font-weight: bolder;
+  border-radius: 5px;
+  background-color: inherit;
+  border: 1px solid whitesmoke;
+}
+.but:hover{
+  background-color: blueviolet;
+  color: azure;
+  margin-top: 5px;
+  box-shadow: 4px 3px silver;
+  margin-bottom: 15px;
+}
+.gre:hover{
+  background-color: green;
+  box-shadow: 4px 3px lightslategrey;
+  /* color: black; */
+}
+.red:hover{
+  box-shadow: 4px 3px yellow;
+  background-color: red;
+}
+.inp{
+  margin:10px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: inherit;
+  width: 50%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.inp:hover{
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-shadow: 3px 3px red;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add{
+  margin: 5% 25%;
+  border-radius: 10px;
+  background-color: aquamarine;
+  box-shadow: 6px 6px  wheat;  
+  border: 2px solid red;
+  padding: 10px;
+}
+.card1{
+  border: 1px solid red;
+  margin: 9% 34%;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: cadetblue;
+}
+.card1:hover{
+  box-shadow: 4px 4px rosybrown;
+  margin:8% 34%;
+  color: whitesmoke;
+  background-color: crimson;
+}
+.hi{
+  width: 30px;
 }
