@@ -4,7 +4,7 @@
 }
 .grid{
   display: grid;
-  grid-template-columns: 18%x auto;
+  grid-template-columns: 18% auto;
 }
 .chng{
   grid-template-columns: 10% auto;
